@@ -1,22 +1,20 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Team from '@/components/Team'
+import { WEBSITE_NAME, WEBSITE_TITLE, WEBSITE_DESCRIPTION, WEBSITE_URL } from '@/lib/constants';
+import Page from '@/components/Layout/Page'
+import Team from '@/components/Team';
+import SocialMeta from '@/components/SocialMeta';
 
-export default function Home() {
+const Index = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <Team />
-      </main>
-
-      <footer className={styles.footer}>
-        INVESTEAD
-      </footer>
-    </div>
+    <Page>
+      <SocialMeta 
+        image="/static/twitter-cards/hero-image.webp"
+        title={`${WEBSITE_NAME} - ${WEBSITE_TITLE}`}
+        url={WEBSITE_URL}
+        description={WEBSITE_DESCRIPTION}
+      />
+      <Team />
+    </Page>
   )
 }
+
+export default Index;
