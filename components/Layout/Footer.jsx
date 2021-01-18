@@ -1,7 +1,9 @@
 import { FaHome } from 'react-icons/fa';
 import { WEBSITE_NAME } from '@/lib/constants'
+import en from '../../locales/en';
 
 const Footer = () => {
+
   return (
     <footer className="text-gray-800">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
@@ -11,7 +13,7 @@ const Footer = () => {
             <span className="ml-3 text-xl">{WEBSITE_NAME}</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
-          Everything you need to know when you're looking to buy, or sell - all in one place.
+            {en.footerDescription}
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
