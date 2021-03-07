@@ -152,14 +152,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/aspect-ratio@npm:^0.2.0":
+"@tailwindcss/aspect-ratio@npm:0.2.0":
   version: 0.2.0
   resolution: "@tailwindcss/aspect-ratio@npm:0.2.0"
   checksum: f33e8700710550c67bcf5292445d05b5fb44f94d6e7baf031da04229ee3bb5b38d2ac6a7b8136a28f63006aa3e1a28625bd740bf0c9ffccf16607a1bb19d6d98
   languageName: node
   linkType: hard
 
-"@tailwindcss/forms@npm:^0.2.1":
+"@tailwindcss/forms@npm:0.2.1":
   version: 0.2.1
   resolution: "@tailwindcss/forms@npm:0.2.1"
   dependencies:
@@ -346,7 +346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.2.1":
+"autoprefixer@npm:10.2.1":
   version: 10.2.1
   resolution: "autoprefixer@npm:10.2.1"
   dependencies:
@@ -1531,16 +1531,16 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "investead@workspace:."
   dependencies:
-    "@tailwindcss/aspect-ratio": ^0.2.0
-    "@tailwindcss/forms": ^0.2.1
-    autoprefixer: ^10.2.1
-    next: ^10.0.8
-    postcss: ^8.2.7
+    "@tailwindcss/aspect-ratio": 0.2.0
+    "@tailwindcss/forms": 0.2.1
+    autoprefixer: 10.2.1
+    next: 10.0.8
+    postcss: 8.2.7
     react: 17.0.1
     react-dom: 17.0.1
-    react-icons: ^4.2.0
-    swr: ^0.4.0
-    tailwindcss: ^2.0.3
+    react-icons: 4.2.0
+    swr: 0.4.0
+    tailwindcss: 2.0.3
   languageName: unknown
   linkType: soft
 
@@ -1949,7 +1949,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"next@npm:^10.0.8":
+"next@npm:10.0.8":
   version: 10.0.8
   resolution: "next@npm:10.0.8"
   dependencies:
@@ -2385,6 +2385,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"postcss@npm:8.2.7, postcss@npm:^8.2.1":
+  version: 8.2.7
+  resolution: "postcss@npm:8.2.7"
+  dependencies:
+    colorette: ^1.2.2
+    nanoid: ^3.1.20
+    source-map: ^0.6.1
+  checksum: cd2a7a8b9c1950783afd05e906d65a6433b13bcce5a52f3c2802c524479e7ba6893f516338ed1bc755b3a8545eb5a181daf0fcf25af694ad2e33e9d9fe7d4254
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^6.0.9":
   version: 6.0.23
   resolution: "postcss@npm:6.0.23"
@@ -2415,17 +2426,6 @@ fsevents@~2.3.1:
     nanoid: ^3.1.20
     source-map: ^0.6.1
   checksum: 1d28f12c6f18306f5bc374b3d9f360eded798ea9d893a7873cf40005b737464a610f7aa850fc6bb0db14ab3e2eadb99710009c827160f2d13ce5251414510edd
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.2.1, postcss@npm:^8.2.7":
-  version: 8.2.7
-  resolution: "postcss@npm:8.2.7"
-  dependencies:
-    colorette: ^1.2.2
-    nanoid: ^3.1.20
-    source-map: ^0.6.1
-  checksum: cd2a7a8b9c1950783afd05e906d65a6433b13bcce5a52f3c2802c524479e7ba6893f516338ed1bc755b3a8545eb5a181daf0fcf25af694ad2e33e9d9fe7d4254
   languageName: node
   linkType: hard
 
@@ -2582,7 +2582,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-icons@npm:^4.2.0":
+"react-icons@npm:4.2.0":
   version: 4.2.0
   resolution: "react-icons@npm:4.2.0"
   peerDependencies:
@@ -3079,7 +3079,7 @@ resolve@^1.19.0:
   languageName: node
   linkType: hard
 
-"swr@npm:^0.4.0":
+"swr@npm:0.4.0":
   version: 0.4.0
   resolution: "swr@npm:0.4.0"
   dependencies:
@@ -3090,7 +3090,7 @@ resolve@^1.19.0:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^2.0.3":
+"tailwindcss@npm:2.0.3":
   version: 2.0.3
   resolution: "tailwindcss@npm:2.0.3"
   dependencies:
