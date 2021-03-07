@@ -1,7 +1,6 @@
 {
   "extends": [
     ":separateMajorReleases",
-    ":separateMultipleMajor",
     ":combinePatchMinorReleases",
     ":ignoreUnstable",
     ":prImmediately",
