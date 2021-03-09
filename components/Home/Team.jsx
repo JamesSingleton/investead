@@ -16,12 +16,13 @@ const Team = () => (
         </div>
         <div className="lg:col-span-2">
           <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
-            {teamMembers.map(({ avatar, name, title }) => (
+            {teamMembers.map(({ avatar, name, title, slug }) => (
               <TeamMember
                 key={`${name}_${title}`}
                 avatar={avatar}
                 name={name}
                 title={title}
+                slug={slug}
               />
             ))}
           </ul>

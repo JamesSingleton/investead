@@ -2,21 +2,25 @@
   {
     "avatar": "/images/team/james_singleton.jfif",
     "name": "James Singleton",
-    "title": "Owner / Real Estate Broker"
+    "title": "Owner / Real Estate Broker",
+    "slug": "james-singleton"
   },
   {
     "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=PBYAC1z5hu&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     "name": "Kayla Rodriguez-DeBrango",
-    "title": "Realtor"
+    "title": "Realtor",
+    "slug": "kayla-rodriguez-debrango"
   },
   {
     "avatar": "/images/team/marshal_nathe.jpg",
     "name": "Marshal Nathe",
-    "title": "Real Estate Agent"
+    "title": "Real Estate Agent",
+    "slug": "marshal-nathe"
   },
   {
     "avatar": "/images/team/ron_kuhn.jpg",
     "name": "Ron Kuhn",
-    "title": "Senior Mortgage Consultant"
+    "title": "Senior Mortgage Consultant",
+    "slug": "ron-kuhn"
   }
 ]

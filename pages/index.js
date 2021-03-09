@@ -11,7 +11,7 @@ import SocialMeta from "@/components/SocialMeta";
 import PropertyListing from "@/components/PropertyListing";
 import PropertyCard from "@/components/PropertyCard";
 
-const Index = (props) => {
+const Index = () => {
   return (
     <Page>
       <SocialMeta
@@ -20,7 +20,6 @@ const Index = (props) => {
         url={WEBSITE_URL}
         description={WEBSITE_DESCRIPTION}
       />
-
       <Hero />
       <Team />
     </Page>
