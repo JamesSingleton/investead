@@ -1561,7 +1561,7 @@ fsevents@~2.3.1:
     react: 17.0.1
     react-dom: 17.0.1
     react-icons: 4.2.0
-    swr: 0.4.2
+    swr: 0.5.6
     tailwindcss: 2.0.3
   languageName: unknown
   linkType: soft
@@ -3108,14 +3108,14 @@ resolve@^1.19.0:
   languageName: node
   linkType: hard
 
-"swr@npm:0.4.2":
-  version: 0.4.2
-  resolution: "swr@npm:0.4.2"
+"swr@npm:0.5.6":
+  version: 0.5.6
+  resolution: "swr@npm:0.5.6"
   dependencies:
     dequal: 2.0.2
   peerDependencies:
     react: ^16.11.0 || ^17.0.0
-  checksum: c3643842fc271d55e7d8cd6882bb30f8e834f928610381e268b036e84c43809beaf04af222e57669c854e87e45d44d5f172896d07ac5a2a920c2b25ae4a6a455
+  checksum: 3522cc3de9200d4209b97ac333181d7b3c040fba770b03ff41b226a2839551141c7e71080aa700b442ff8a6537d11abdf4182a4272b8e5fe57df6a1e9c2fb7fa
   languageName: node
   linkType: hard
 
