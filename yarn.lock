@@ -188,12 +188,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/forms@npm:0.2.1":
-  version: 0.2.1
-  resolution: "@tailwindcss/forms@npm:0.2.1"
+"@tailwindcss/forms@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@tailwindcss/forms@npm:0.3.3"
   dependencies:
     mini-svg-data-uri: ^1.2.3
-  checksum: 968520113161a4720f79af53e3efd1354ec7ab560ad457891246fb044cc1b23d31e909f9ac04b515a71acf5cf9642434c86a277475474cae5fe9b7efa2938804
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: 75637650c5a528ec577f26d6bd043bb9295c2fa443fe943b7391914b0ecd0570624be18bb69da8ca460743538d27b46a18d80936efb6806df991cce2face40d7
   languageName: node
   linkType: hard
 
@@ -1648,7 +1650,7 @@ fsevents@~2.3.1:
   resolution: "investead@workspace:."
   dependencies:
     "@tailwindcss/aspect-ratio": 0.2.1
-    "@tailwindcss/forms": 0.2.1
+    "@tailwindcss/forms": 0.3.3
     autoprefixer: 10.2.6
     next: 10.0.8
     postcss: 8.2.15
