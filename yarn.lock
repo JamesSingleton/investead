@@ -152,10 +152,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/aspect-ratio@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@tailwindcss/aspect-ratio@npm:0.2.0"
-  checksum: f33e8700710550c67bcf5292445d05b5fb44f94d6e7baf031da04229ee3bb5b38d2ac6a7b8136a28f63006aa3e1a28625bd740bf0c9ffccf16607a1bb19d6d98
+"@tailwindcss/aspect-ratio@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@tailwindcss/aspect-ratio@npm:0.2.1"
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: 90739254f6e77adf8bca2785103124891945b449d1ba4d222c11767bd6c532a3f3b9b441f875ceac28f90ba09f2697af66cc02fed4ed48125911953cc77b65a8
   languageName: node
   linkType: hard
 
@@ -1553,7 +1555,7 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "investead@workspace:."
   dependencies:
-    "@tailwindcss/aspect-ratio": 0.2.0
+    "@tailwindcss/aspect-ratio": 0.2.1
     "@tailwindcss/forms": 0.2.1
     autoprefixer: 10.2.5
     next: 10.0.8
