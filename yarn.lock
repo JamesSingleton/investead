@@ -1761,7 +1761,7 @@ fsevents@~2.3.1:
     postcss: 8.2.15
     react: 17.0.2
     react-dom: 17.0.2
-    react-icons: 4.2.0
+    react-icons: 4.3.1
     swr: 0.5.6
     tailwindcss: 2.1.4
   languageName: unknown
@@ -3049,12 +3049,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-icons@npm:4.2.0":
-  version: 4.2.0
-  resolution: "react-icons@npm:4.2.0"
+"react-icons@npm:4.3.1":
+  version: 4.3.1
+  resolution: "react-icons@npm:4.3.1"
   peerDependencies:
     react: "*"
-  checksum: 0052e25c6aacab93da3328ab856e4971214dce082de4bce857801802903366c7a8f9f490fe02ecd4ce181512b7b55cac12d6273c3c8dccc0e3b71b30dfd28256
+  checksum: f79f43257de99b082731ebb5814bb3688d7e896d4497344c6f207480a21a7de6a3ca8b80a4bba3142d4096532179619056bbdd6cfc1214a6769068256ca5c995
   languageName: node
   linkType: hard
 
