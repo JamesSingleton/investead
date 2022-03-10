@@ -8,15 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "0.2.1",
-    "@tailwindcss/forms": "0.3.3",
-    "autoprefixer": "10.2.6",
-    "next": "11.0.1",
-    "postcss": "8.2.15",
+    "next": "^12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "4.2.0",
-    "swr": "0.5.6",
-    "tailwindcss": "2.1.4"
+    "react-icons": "^4.3.1",
+    "swr": "^1.2.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
   }
 }
